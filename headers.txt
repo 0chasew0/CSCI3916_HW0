@@ -1,0 +1,21 @@
+Content-Type: Used to indicate the media type of the resource (type of content the page has to load).
+
+Vary: Tells any HTTP cache which parts of the request header to take into account when trying to find the right object.
+
+Content-Encoding: Used to compress the media-type.
+
+Date: Contains the date and time at which the message was originated.
+
+Server: Describes the software used by the origin server that handled the request (aka the server that generated the response).
+
+Cache-Control: Holds intructions for caching in both requests and responses.
+
+X-XSS-Protection: Stops pages from loading when they detect reflected cross-site scripting (XSS) attacks.
+
+X-Frame-Options: Used to indicate whether or not a browser should be allowed to render a page in a <frame>, <iframe>, <embed>, or <object>.
+
+X-Content-Type-Options: A marker used by the server to indicate that the MIME types in the Content-Type headers should not be changed and be followed.
+
+Alt-Svc: Used to advertise alternative services through which the same resource can be reached.
+
+Transfer-Encoding: Specifies the form of encoding used to safely transger the payload body to the user.
